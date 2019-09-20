@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="SystemContextMenuSub" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -129,9 +129,6 @@
   </data>
   <data name="SilverButtonRestoreA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SilverButtonRestoreA.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SplitVertical" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SplitVertical.cur;System.Windows.Forms.Cursor, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="MdiRestore" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MdiRestore.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -408,9 +405,6 @@
   </data>
   <data name="ProfessionalPendantCloseA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ProfessionalPendantCloseA.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SplitHorizontal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SplitHorizontal.cur;System.Windows.Forms.Cursor, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ProfessionalPendantCloseI" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ProfessionalPendantCloseI.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -844,7 +838,6 @@
   <data name="TreeExpandPlus" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TreeExpandPlus.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="TreeMinusBox" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TreeMinusBox.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

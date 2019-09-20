@@ -19,7 +19,7 @@ namespace ComponentFactory.Krypton.Toolkit.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -2197,26 +2197,6 @@ namespace ComponentFactory.Krypton.Toolkit.Properties {
             get {
                 object obj = ResourceManager.GetObject("SparkleIndeterminate", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Windows.Forms.Cursor similar to [Cursor: System.Windows.Forms.Cursor].
-        /// </summary>
-        internal static System.Windows.Forms.Cursor SplitHorizontal {
-            get {
-                object obj = ResourceManager.GetObject("SplitHorizontal", resourceCulture);
-                return ((System.Windows.Forms.Cursor)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Windows.Forms.Cursor similar to [Cursor: System.Windows.Forms.Cursor].
-        /// </summary>
-        internal static System.Windows.Forms.Cursor SplitVertical {
-            get {
-                object obj = ResourceManager.GetObject("SplitVertical", resourceCulture);
-                return ((System.Windows.Forms.Cursor)(obj));
             }
         }
         

@@ -164,8 +164,8 @@ namespace ComponentFactory.Krypton.Toolkit
 
         #region Static Fields
         private static readonly Point _nullPoint = new Point(-1, -1);
-        private static readonly Cursor _cursorHSplit = Properties.Resources.SplitHorizontal;
-        private static readonly Cursor _cursorVSplit = Properties.Resources.SplitVertical;
+        //private static readonly Cursor _cursorHSplit = Properties.Resources.SplitHorizontal;
+        //private static readonly Cursor _cursorVSplit = Properties.Resources.SplitVertical;
         private static readonly Cursor _cursorHMove = Cursors.SizeNS;
         private static readonly Cursor _cursorVMove = Cursors.SizeWE;
         #endregion
@@ -239,10 +239,15 @@ namespace ComponentFactory.Krypton.Toolkit
             if (_source.SeparatorCanMove)
             {
                 // Cursor depends on orientation direction
-                if (_source.SeparatorOrientation == Orientation.Vertical)
+                /*if (_source.SeparatorOrientation == Orientation.Vertical)
                     _source.SeparatorControl.Cursor = (_splitCursors ? _cursorVSplit : _cursorVMove);
                 else
-                    _source.SeparatorControl.Cursor = (_splitCursors ? _cursorHSplit : _cursorHMove);
+                    _source.SeparatorControl.Cursor = (_splitCursors ? _cursorHSplit : _cursorHMove);*/
+
+                if (_source.SeparatorOrientation == Orientation.Vertical)
+                    _source.SeparatorControl.Cursor = (_splitCursors ? _cursorVMove : _cursorVMove);
+                else
+                    _source.SeparatorControl.Cursor = (_splitCursors ? _cursorHMove : _cursorHMove);
             }
 
             // If we are currently capturing input

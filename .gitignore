@@ -46,3 +46,5 @@ Network Trash Folder
 Temporary Items
 .apdisk
 *.suo
+Bin/ComponentFactory.Krypton.Toolkit.dll
+Bin/ComponentFactory.Krypton.Toolkit.pdb

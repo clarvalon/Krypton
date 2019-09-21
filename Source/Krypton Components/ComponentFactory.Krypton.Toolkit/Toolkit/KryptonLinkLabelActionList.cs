@@ -239,7 +239,7 @@ namespace ComponentFactory.Krypton.Toolkit
                     _action = "Link has been visited";
 
                 // Get the user interface service associated with actions
-                DesignerActionUIService service = GetService(typeof(DesignerActionUIService)) as DesignerActionUIService;
+                var service = GetService(typeof(System.ComponentModel.Design.DesignerActionUIService)) as System.ComponentModel.Design.DesignerActionUIService;
 
                 // If we managed to get it then request it update to reflect new action setting
                 if (service != null)

@@ -5,4 +5,7 @@
   <PropertyGroup Condition="$(MSBuildProjectName.Contains('Core'))">
     <BaseIntermediateOutputPath>obj_core\</BaseIntermediateOutputPath>
   </PropertyGroup>
+  <PropertyGroup>
+    <EmbeddedResourceUseDependentUponConvention>false</EmbeddedResourceUseDependentUponConvention>
+  </PropertyGroup>
 </Project>

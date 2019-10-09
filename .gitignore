@@ -49,3 +49,6 @@ Temporary Items
 *.suo
 Bin/ComponentFactory.Krypton.Toolkit.dll
 Bin/ComponentFactory.Krypton.Toolkit.pdb
+Bin/ComponentFactory.Krypton.Toolkit.dll
+Bin/ComponentFactory.Krypton.Toolkit.pdb
+*.user
